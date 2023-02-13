@@ -56,7 +56,7 @@ const filledCart = () => {
         return cartContent.innerHTML = `
         <div>
             <div class="check">
-                <img src='/images/image-product-1.jpg' width=60>
+                <img src='./images/image-product-1.jpg' width=60>
                 <div class="cart-image-details">
                     <p>Fall Limited Edition Sneakers</p>
                     <p>$125.00 * ${amount} <span> Total: $${125 * amount}</span></p>
@@ -85,10 +85,10 @@ function update() {
 // IMAGE CAROUSEL FUNCTIONS
 
 const imageArray = [
-    '/images/image-product-1.jpg',
-    '/images/image-product-2.jpg',
-    '/images/image-product-3.jpg',
-    '/images/image-product-4.jpg'
+    './images/image-product-1.jpg',
+    './images/image-product-2.jpg',
+    './images/image-product-3.jpg',
+    './images/image-product-4.jpg'
 ];
 
 const image = document.getElementById('main-img');
