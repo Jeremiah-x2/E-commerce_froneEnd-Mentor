@@ -126,13 +126,6 @@ function carouselPrev() {
     image.src = imageArray[i]
 }
 
-// add active class function for thumbnails
-function addActive() {
-    thumbImg.forEach(x => {
-        
-    })
-}
-
 prev.onclick = carouselPrev
 next.onclick = carouselNext
 
